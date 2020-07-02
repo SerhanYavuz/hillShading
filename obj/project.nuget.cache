@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "1mGUTwNrjpm/mXig8pYAS8w1jiJZpkGXJ+eCGWq6+sZm9lfJ0ifw5uLf79wTOrJ42XCM81Bz1pCFf0GWpRidkQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yavuz\\Desktop\\hillshading\\hs\\hs.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yavuz\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\yavuz\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\yavuz\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
+    "C:\\Users\\yavuz\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
