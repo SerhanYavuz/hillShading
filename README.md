@@ -33,7 +33,7 @@ DTED verisi kullanılarak örneğin bir uçuş simülatörü uygulamasında dün
 Bu modele doku vermek için ise hillshade map ile doku imajı oluşturulabilir.
 
  - Şimdilik oluşturulan random veri çok karmaşık görünsede pattern oluşturulduğunda (DTEDGenerator.GeneratePattern) algoritmanın çalıştığı görülebilir
- - Oluşturulan harita \bin\Debug\netcoreapp3.1\visualizedDTED.jpg konumuna kaydedilir
+ - Oluşturulan harita ``\bin\Debug\netcoreapp3.1\visualizedDTED.jpg`` konumuna kaydedilir
  - verilen azimuth ve sunElevation değerlerine göre harita oluşturabiliyor 
 
 ## Complexity
