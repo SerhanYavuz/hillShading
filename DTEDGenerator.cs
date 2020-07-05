@@ -17,7 +17,7 @@ namespace hs
             {
                 for (int j = 0; j< 401; j++)
                 {
-                    data[i, j] = random.Next(999);
+                    data[i, j] = random.Next(255);
                 }
 
             }
@@ -109,7 +109,7 @@ namespace hs
                     int green = Math.Min((int)((l * 256 - red) * 256), 255);
                     int blue = Math.Min((int)(((l * 256 - red) * 256 - green) * 256), 255);
 
-                    bmp.SetPixel(x, y, Color.FromArgb(red, green, blue));
+                    bmp.SetPixel(x, y, Color.FromArgb(0, 0, blue));
                 }
             }
 
