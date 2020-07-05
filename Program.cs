@@ -14,7 +14,7 @@ namespace hs
             Console.WriteLine("Hello!");
 
             //Generating DTED data
-            int [,] randomGeneratedDTED = DTEDGenerator.GeneratePattern();
+            int [,] randomGeneratedDTED = DTEDGenerator.Generate();
             Bitmap bmp = new Bitmap(401, 401);
             //calculate slope at each pixel except border pixels (will implement later)
             for (int x = 1; x< 400; x++)
