@@ -15,13 +15,16 @@ namespace hs
             {
                 for (int j = 0; j< 401; j++)
                 {
-                    data[i, j] = random.Next(256);
+                    data[i, j] = random.Next(999);
                 }
 
             }
             Console.WriteLine("Generated");
             return data;
         }
+
+
+
 
     }
 }
