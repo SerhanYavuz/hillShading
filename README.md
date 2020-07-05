@@ -1,10 +1,13 @@
-# hillShading
 
+## Ne yapıyor 
+ - Şimdilik oluşturulan random veri çok karmaşık görünsede pattern oluşturulduğunda (DTEDGenerator.GeneratePattern) algoritmanın çalıştığı görülebilir
+ - Oluşturulan harita ``\bin\Debug\netcoreapp3.1\visualizedDTED.jpg`` konumuna kaydedilir
+ - verilen azimuth ve sunElevation değerlerine göre harita oluşturabiliyor 
+ 
+## Hill Shade Nedir?
 Hillshading Algoritması
 
 Bu algoritmanın amacı arazi modelinin gölgelendirilerek 3-boyutlu görünüm veren bir doku oluşturulmasıdır.
-
- 
 
 DTED Verisi: (Digital Terrain Elevation Data)
 
@@ -32,9 +35,7 @@ DTED verisi kullanılarak örneğin bir uçuş simülatörü uygulamasında dün
 
 Bu modele doku vermek için ise hillshade map ile doku imajı oluşturulabilir.
 
- - Şimdilik oluşturulan random veri çok karmaşık görünsede pattern oluşturulduğunda (DTEDGenerator.GeneratePattern) algoritmanın çalıştığı görülebilir
- - Oluşturulan harita ``\bin\Debug\netcoreapp3.1\visualizedDTED.jpg`` konumuna kaydedilir
- - verilen azimuth ve sunElevation değerlerine göre harita oluşturabiliyor 
+
 
 ## Complexity
 ``calculating``
