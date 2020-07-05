@@ -1,5 +1,4 @@
 # hillShading
-hill shading algorithm and visualization 
 
 Hillshading Algoritması
 
@@ -33,36 +32,8 @@ DTED verisi kullanılarak örneğin bir uçuş simülatörü uygulamasında dün
 
 Bu modele doku vermek için ise hillshade map ile doku imajı oluşturulabilir.
 
- 
+ - Şimdilik oluşturulan random veri çok karmaşık görünsede pattern oluşturulduğunda (DTEDGenerator.GeneratePattern) algoritmanın çalıştığı görülebilir
+ - Oluşturulan harita \bin\Debug\netcoreapp3.1\visualizedDTED.jpg konumuna kaydedilir
+[X] verilen azimuth ve sunElevation değerlerine göre harita oluşturabiliyor 
 
-int dted[3][3] = {
-
-A1 A2 A3
-
-B1 B2 B3
-
-C1 C2 C3 
-
-} olsun.
-
-Burada herbir eleman arazide bir noktadır. Değeri ise rakımı yani deniz seviyesinden yüksekliğidir.
-
- 
-
-Assignment:
-
-1- 401 * 401 'lik DTED verisi oluşturulması (rastgele-düzenli veri/veya internetten örnek DTED arazi modeli bulabilirsin ancak parse etmek gerekebilir).
-
-2- Internetten hillshade map algoritması bulup Java'ya port edilmesi/ veya doğrudan Java algoritması bulunması.
-
-3- Algoritmanın çalıştırılarak hillshade map oluşturulması.
-
-4- Çıktının görselleştirilmesi.
-
-5- 3-5 tane girdi/çıktı ile algoritmanın çalıştığının gösterilmesi.
-
-6- algoritmanın karmaşıklık analizi. 
-
- 
-
-Öncelikle anlamadığın soruları sor.
+## Complexity
