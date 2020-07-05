@@ -37,3 +37,4 @@ Bu modele doku vermek için ise hillshade map ile doku imajı oluşturulabilir.
  - verilen azimuth ve sunElevation değerlerine göre harita oluşturabiliyor 
 
 ## Complexity
+``calculating``
