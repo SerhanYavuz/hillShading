@@ -24,6 +24,30 @@ namespace hs
             Console.WriteLine("Generated");
             return data;
         }
+        public static int[,] GeneratePattern()
+        {
+            Console.WriteLine("Generating DTED");
+            int[,] data = new int[401, 401];
+            Random random = new Random();
+            for (int i = 0; i < 200; i++)
+            {
+                for (int j = 0; j < 401; j++)
+                {
+                    data[i, j] = j;
+                }
+
+            }
+            for (int i = 200; i < 401; i++)
+            {
+                for (int j = 0; j < 401; j++)
+                {
+                    data[i, j] = random.Next(99);
+                }
+
+            }
+            Console.WriteLine("Generated");
+            return data;
+        }
 
         public static Bitmap GenerateImage(int[,] randomGeneratedDTED, double sunElev, double sunAzimuth)
         {

@@ -14,7 +14,7 @@ namespace hs
             Console.WriteLine("Hello!");
 
             //Generating DTED data
-            int [,] randomGeneratedDTED = DTEDGenerator.Generate();
+            int [,] randomGeneratedDTED = DTEDGenerator.GeneratePattern();
             DTEDGenerator.GenerateImage(randomGeneratedDTED, 10, 100);
 
             Console.ReadKey();
